@@ -1,2 +1,2 @@
-# docs
-Documentation
+# Kiwahosting Documentation
+Coming soon

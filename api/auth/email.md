@@ -36,5 +36,5 @@ Responses:
 - 2: SQL error.
 - 6: Email server rejected authentication.
 - 7: Email failed to send.
-- 12: Account has already been verified.
+- 12: Account has \already been verified.
 Return: None

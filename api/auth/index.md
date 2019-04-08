@@ -9,16 +9,16 @@ Handles authentication for users using tokens.
 - `t`: The final token, produced by concating and hashing (with SHA1) the `pd` and `rt`, then concating the `dt` to that hash. Once generated the token is valid for 10-20 seconds.
 
 ## Endpoints
-- [`/auth/device`](./device)
-    - [GET](./device#get): Get a new `dt`.
-    - [POST](./device#post): Check if `dt` is valid.
-- [`/auth/signin`](./signin)
-    - [POST](./signin#post): Add `dt` to account if not already.
-- [`/auth/verify`](./verify)
-    - [GET](./verify#get): Make sure `t` is valid
-- [`/auth/signup`](./signup)
-    - [POST](./signup#post): Create a new account.
-- [`/auth/email`](./email)
-    - [GET](./email#get): Check if an email already has an account.
-    - [POST](./email#post): Verify email and activate it's account.
-    - [PUT](./email#put): Request another verification email.
+- [`/auth/device`](/docs/api/auth/device)
+    - [GET](/docs/api/auth/device#get): Get a new `dt`.
+    - [POST](/docs/api/auth/device#post): Check if `dt` is valid.
+- [`/auth/email`](/docs/api/auth/email)
+    - [GET](/docs/api/auth/email#get): Check if an email already has an account.
+    - [POST](/docs/api/auth/email#post): Verify email and activate it's account.
+    - [PUT](/docs/api/auth/email#put): Request another verification email.
+- [`/auth/signin`](/docs/api/auth/signin)
+    - [POST](/docs/api/auth/signin#post): Add `dt` to account if not already.
+- [`/auth/signup`](/docs/api/auth/signup)
+    - [POST](/docs/api/auth/signup#post): Create a new account.
+- [`/auth/verify`](/docs/api/auth/verify.md)
+    - [GET](/docs/api/auth/verify#get): Make sure `t` is valid
